@@ -1,0 +1,106 @@
+body{
+	margin:0;
+}
+header{
+	background-image: url(../images/Group_3.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    background-attachment: fixed;
+}
+.container{
+	width:1000px;
+	margin:auto;
+	overflow: hidden;
+}
+.col-1{
+	width: 25%;
+    float: left;
+    color: #000;
+}
+.col-1 h1{
+	font-size: 70px;
+    color: #fff;
+    margin: 0;
+     margin-top: 150px;
+}
+.col-1 p{
+	font-size: 20px;
+    color: #fff;
+ }
+ .col-1 a{
+ 	padding: 12px 55px;
+    background: crimson;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+ }
+.col-2{
+	width:75%;
+	float: left;
+	color:#000;
+}
+.col-2 img{
+	max-width: 100%;
+    height: 454px;
+    margin-left: auto;
+    display: block;
+}
+.about-pnp{
+	padding: 100px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.about-pnp h1{
+	font-size: 50px;
+    margin: 0;
+}
+.about-pnp p{
+	font-size: 22px;
+    color: #673AB7;
+    padding-bottom: 40px;
+}
+.about-pnp strong{
+	color:#000;
+}
+.features-section{
+	padding: 100px 0px;
+    background: aliceblue;
+}
+.col-3{
+	width:50%;
+	float: left;
+	text-align: center;
+	padding: 0px 50px;
+	box-sizing: border-box;
+}
+.features-section p{
+	font-size: 22px;
+    color: gray;
+    margin:0px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+}
+.features-section h2{
+	font-size: 22px;
+    color: crimson;
+    margin:0px;
+}
+.features-section a{
+	padding: 12px 55px;
+    background: crimson;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.line{
+	border-right:6px solid crimson;
+}
